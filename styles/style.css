@@ -116,23 +116,23 @@
 .section-title {
     display: flex;
     justify-content: center;
-    align-items: center;
     line-height: 69px;
     font-size: 60px;
     font-weight: bold;
     width: 60%;
+    margin: 0 auto;
+    padding: 100px 0 0 0;
 }
 
 .section-subtitle {
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 60%;
-    margin: 20 0 0 0;
-    text-align: center;
+    margin: 0 auto;
     line-height: 34px;
     font-size: 24px;
     font-weight: normal;
+    padding: 20px 0 0 0;
 }
 
 .table {
@@ -205,7 +205,7 @@
     background-color: #1F1F1F;
     overflow: hidden;
     position: relative;
-    padding: 90 90p 0;
+    padding: 90 90 0;
 }
 
 .section-title_theme_dark {
@@ -218,7 +218,6 @@
 .section-subtitle_theme_dark {
     position: relative;
     color: white;
-    text-align: center;
     z-index: 1;
 }
 
@@ -237,14 +236,13 @@
     width: 877px;
     height: 877px;
     background-image: url("../images/triangle.svg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
     top: 0;
     right: -210px;
     z-index: 0;
-    overflow: hidden;
 }
 
 .footer {
