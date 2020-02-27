@@ -124,7 +124,7 @@
     font-weight: bold;
     width: 60%;
     margin: 0 auto;
-    padding: 100px 0 0 0;
+    padding: 100px 0 0;
 }
 
 .section-subtitle {
@@ -135,7 +135,7 @@
     line-height: 34px;
     font-size: 24px;
     font-weight: normal;
-    padding: 20px 0 0 0;
+    padding: 20px 0 0;
 }
 
 .table {
@@ -176,13 +176,14 @@
 }
 
 .feynman__title {
-    width: 770px;
+    width: 775px; /*The width is stated as 770 px in the brief. But if we give 770px then the text will be three line text due to the other desired settings.*/
     margin: 0 auto;
     padding-top: 100px;
     text-align: center;
     line-height: 1.15;
     font-size: 120px;
     font-weight: bold;
+    position: relative;
 }
 
 .feynman__subtitle {
@@ -240,9 +241,7 @@
     width: 877px;
     height: 877px;
     background-image: url("../images/triangle.svg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position: right;
     position: absolute;
     top: 0;
     right: -210px;
@@ -255,7 +254,7 @@
 }
 
 .footer__columns {
-    margin: auto;
+    margin:     auto;
     padding: 60px 0 40px 0;
     display: flex;
     justify-content: space-between;
@@ -265,7 +264,6 @@
 .footer__column {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
 }
 
 .logo_place_footer {
